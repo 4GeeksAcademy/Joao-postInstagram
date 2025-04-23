@@ -1,0 +1,65 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+   background-color: rgb(128, 121, 121)
+}
+.post{
+    margin: auto;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    
+}
+
+.post-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span.icons-css {
+    font-size: 2.5em;
+    margin: 4px 0px 4px 4px;
+}
+span.texto {
+    margin-right: 10px;
+    font-size: 1em;
+   padding: 8px 10px 0px 10px;
+}
+span.punto{
+    margin: 8px 15px 8px 300px;
+    font-size: 1.5em;
+}
+img {
+    width: 100%;
+}
+.post-icons {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 10px;
+}
+span.heart{
+    margin: 4px 4px 0px 8px;
+}
+span.comentario {
+    margin: 4px 4px 0px 8px;
+}
+span.papel {
+    margin: 4px 4px 0px 8px;
+}
+span.guardado {
+    margin: 4px 4px 0px 300px;
+}
+.post-body{
+    padding: 8px;
+    font-size: 1em;
+}
